@@ -1,0 +1,15 @@
+.scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  background-color: #4b4c4f;
+  color: #e5e6ea;
+  border-radius: 100px;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+  &.hide-button {
+    display: none;
+  }
+}
